@@ -1,0 +1,44 @@
+/* Styles for form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Styles for form labels */
+  .reply label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  /* Styles for form inputs and textarea */
+  .reply input[type="text"],
+  .reply input[type="email"],
+  .reply textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for submit button */
+  .reply button[type="submit"] {
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #070707;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+ 
+  
