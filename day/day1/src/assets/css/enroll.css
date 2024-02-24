@@ -1,0 +1,61 @@
+/* Styles for form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Styles for form labels */
+  .enroll label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    /* width: 30%; */
+  }
+  
+  /* Styles for form inputs */
+  .enroll  input[type="text"],
+  .enroll  input[type="email"],
+  .enroll select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for select dropdown */
+  .enroll select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%;
+    background-size: 24px;
+  }
+  
+  /* Styles for submit button */
+  .enroll  button[type="submit"] {
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Styles for form error message */
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
